@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Ejemplos de formularios</h1>
+    <h2>Ejemplo de login</h2>
+
+    <form method="GET" action="#">
+      <input
+        name="usuario"
+        type="email"
+        placeholder="ejemplo@correo.com"
+        required="6"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Contraseña nueva"
+        required="16"
+      />
+      <input type="button" value="INGRESA" />
+    </form>
+
+    <form method="POST" action="#">
+      <h2>Registro</h2>
+      <label for="nombre">Nombre *</label>
+      <br />
+      <input type="text" placeholder="Nombre" id="nombre" maxlength="20" />
+      <br />
+      <label for="apellido">Apellido</label>
+      <br />
+      <input type="text" placeholder="apellido" id="apellido" maxlength="30" />
+      <br />
+      <label for="correo">Correo*</label>
+      <br />
+      <input
+        type="email"
+        placeholder="correo@ejemplo.com"
+        id="correo"
+        required
+      />
+      <br />
+      <label for="nacimiento">Nacimiento</label>
+      <br />
+      <input type="date" id="nacimiento" required />
+      <br />
+      <label for="telefono">Telefono</label>
+      <br />
+      <input type="tel" id="telefono" placeholder="num. de telefono" required />
+      <br />
+      <label for="color">Color</label>
+      <br />
+      <input type="color" id="color" />
+      <br />
+      <label for="nacionalidad">Nacionalidad</label>
+      <br />
+      <select id="nacimiento">
+        <option>Argentina</option>
+        <option>Brasil</option>
+        <option>Chile</option>
+      </select>
+      <br />
+      <label for="mujer">Mujer</label>
+      <br />
+      <input type="radio" name="sexo" value="mujer" id="mujer" />
+      <br />
+      <label for="hombre">Hombre</label>
+      <br />
+      <input type="radio" name="sexo" value="hombre" id="hombre" />
+      <br />
+      <label for="personalizado">Personalizado</label>
+      <br />
+      <input
+        type="radio"
+        name="sexo"
+        value="personalizado"
+        id="personalizado"
+      />
+      <br />
+      <button>REGISTRAR</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+<!--https://fontawesome.com/-->
+<!--copio el template de un kit para generar iconos gratuitos-->
+<script src="https://kit.fontawesome.com/1ad3b4545d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Estemos en contacto</h1>
+
+    <form method="POST" action="#">
+
+        <label for="nombre_completo">Nombre completo *</completo></label>
+        <br />
+        <input type="text" autofocus id="nombre_completo" required placeholder="Nombre_completo">
+        <br />
+        <label for="asunto">Asunto *</label>
+        <br />
+        <input type="text" id="asunto" required placeholder="asunto">
+        <br />
+        <label for="correo">Correo *</label>
+        <br />
+        <input type="email" id="correo" required placeholder="corre@ejemplo.com">
+        <br />
+        <label for="texto">Deja tu mensaje</label>
+        <br />
+        <textarea 
+            id="texto" 
+            placeholder="Deja un mensaje y te responderemos a la brevedad"
+            maxlength="100"
+            rows="10"
+            cols="40"
+        ></textarea>
+        <br />
+        <br />
+        <button type="submit">ENVIAR</button>
+
+
+    </form>
+    <br />
+    <form method="POST" action="#">
+        <input type="text" disabled value="ejemplo">
+        <br />
+        <br />
+        <input type="text" readonly value="ejemplo 2">
+    </form>
+    <br />
+    <a href="https://www.facebook.com/telefe"> <i class="fab fa-facebook-f fa-2x" style="color: blue;font-size: 42px;" ></i> </a>
+    <br />
+    <br />
+    <i class="fab fa-facebook-messenger fa-facebook-messenger-2x"></i>
+</body>
+</html>

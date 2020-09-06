@@ -1,0 +1,104 @@
+/* Comentario */
+
+h1,
+h4 {
+  color: white;
+  font-size: 42px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+header {
+  background: gray;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cuadrado-ordinario {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: pink;
+}
+
+.destacar {
+  background: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 6px;
+}
+
+.padding-titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.margin-titulo {
+  margin-block: 40px;
+  margin-bottom: 40px;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.olive {
+  color: olive;
+}
+
+.destacar-palabra {
+  font-weight: 900;
+}
+
+p > span {
+  color: darkcyan;
+}
+
+.subrayar-arriba {
+  text-decoration: overline;
+}
+
+.tachar {
+  text-decoration: line-through;
+}
+
+.subrayar {
+  text-decoration: underline;
+}
+
+/*No visitado*/
+a:link {
+  text-decoration: none;
+}
+
+/*Visitado*/
+a:visited {
+  text-decoration: none;
+}
+
+/*Activo*/
+a:active {
+  text-decoration: none;
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/*Hover: posiciono el mouse sobre el link*/
+a:hover {
+  text-decoration: none;
+  font-size: 89px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: blue;
+}
+
+h2:hover {
+  background: olive;
+}

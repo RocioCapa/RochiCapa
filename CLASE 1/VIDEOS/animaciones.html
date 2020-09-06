@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #caja1 {
+        position: relative; /*posición exacta del elemento*/
+        left: 30px;
+        top: 100px;
+        width: 200px;
+        height: 100px;
+        background: rebeccapurple;
+        padding: 6px;
+        border-radius: 6px;
+        animation-name: animacion1;
+        -moz-animation-name: animacion1;
+        -ms-animation-name: animacion1;
+        animation-duration: 4s;
+        -moz-animation-duration: 4s;
+        -ms-animation-duration: 4s;
+        animation-iteration-count: infinite; /*para que se repita infinitas veces la animación*/
+        -moz-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+      }
+
+      @keyframes animacion1 {
+        0% {
+          left: 30px;
+          background: aquamarine;
+        }
+        50% {
+          left: 500px;
+          background: red;
+        }
+        100% {
+          left: 30px;
+          background: aquamarine;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="caja1">
+      <span>:)</span>
+    </div>
+  </body>
+</html>
